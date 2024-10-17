@@ -5,8 +5,8 @@
 # Note, it is not a cumulative charge; your program will figure out which single range the usage falls into, 
 # then calculate the cost based on that range’s cost. 
 
-#Student #:     
-#Student Name:  
+#Student #: W0489720     
+#Student Name: Luc Brousseau
 
 def main():
     # YOUR CODE STARTS HERE, each line must be indented (one tab)
@@ -16,7 +16,7 @@ def main():
     #Based on rate, calculate total data cost
 
     #input amount of data
-    Data=float(input("How many mbs of data did you use?"))
+    Data=float(input("How many mbs of data did you use? "))
 
     #if under 200 or 200mb of data, flat rate of $20.00
     if Data < 200 or Data==200:
@@ -41,6 +41,8 @@ def main():
         RateOfCharge=118
         FlatDataCost=RateOfCharge
         print("Your total data cost is:",FlatDataCost)
+
+    #TODO: Fix issue- multiple calculations being printed for values such as Data=2035
 
     # YOUR CODE ENDS HERE
 
